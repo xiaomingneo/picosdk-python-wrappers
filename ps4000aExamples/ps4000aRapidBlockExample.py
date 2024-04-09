@@ -142,16 +142,16 @@ status["setDataBufferA7"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(buf
 status["setDataBufferA8"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferA8), maxSamples, 8, 0)
 status["setDataBufferA9"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferA9), maxSamples, 9, 0)
 
-status["setDataBufferB0"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB0), maxSamples, 0, 0)
-status["setDataBufferB1"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB1), maxSamples, 1, 0)
-status["setDataBufferB2"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB2), maxSamples, 2, 0)
-status["setDataBufferB3"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB3), maxSamples, 3, 0)
-status["setDataBufferB4"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB4), maxSamples, 4, 0)
-status["setDataBufferB5"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB5), maxSamples, 5, 0)
-status["setDataBufferB6"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB6), maxSamples, 6, 0)
-status["setDataBufferB7"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB7), maxSamples, 7, 0)
-status["setDataBufferB8"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB8), maxSamples, 8, 0)
-status["setDataBufferB9"] = ps.ps4000aSetDataBuffer(chandle, 0, ctypes.byref(bufferB9), maxSamples, 9, 0)
+status["setDataBufferB0"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB0), maxSamples, 0, 0)
+status["setDataBufferB1"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB1), maxSamples, 1, 0)
+status["setDataBufferB2"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB2), maxSamples, 2, 0)
+status["setDataBufferB3"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB3), maxSamples, 3, 0)
+status["setDataBufferB4"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB4), maxSamples, 4, 0)
+status["setDataBufferB5"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB5), maxSamples, 5, 0)
+status["setDataBufferB6"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB6), maxSamples, 6, 0)
+status["setDataBufferB7"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB7), maxSamples, 7, 0)
+status["setDataBufferB8"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB8), maxSamples, 8, 0)
+status["setDataBufferB9"] = ps.ps4000aSetDataBuffer(chandle, 1, ctypes.byref(bufferB9), maxSamples, 9, 0)
 
 # run block capture
 # handle = chandle
